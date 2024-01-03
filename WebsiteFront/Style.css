@@ -64,3 +64,12 @@ button {
 button:hover {
     background-color: #555;
 }
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* vh stands for viewport height */
+    object-fit: cover; /* This will make the image cover the entire area without distorting its aspect ratio */
+    z-index: -1; /* This will put the image behind other content */
