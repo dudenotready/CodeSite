@@ -1,26 +1,26 @@
 /* FILEPATH: /g:/Coding/CodeSite/CodeSite/WebsiteFront/Style.css */
 
-/* Reset default styles */
+/* default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Set dark background color */
+/* dark background color */
 body {
     background-color: #676f9d;
     color: #fff;
 }
 
-/* Set font styles */
+/* font styles */
 button {
     background-color: #f9b17a;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    outline: 2px solid #f9b17a; /* Updated hex value */
+    outline: 2px solid #f9b17a; 
 }
 
 button:hover {
@@ -31,7 +31,7 @@ body {
     font-size: 16px;
 }
 
-/* Set link styles */
+/* link styles */
 a {
     color: #fff;
     text-decoration: none;
@@ -41,18 +41,18 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Set heading styles */
+/* heading styles */
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-weight: bold;
 }
 
-/* Set paragraph styles */
+/* paragraph styles */
 p {
     line-height: 1.5;
 }
 
-/* Set button styles */
+/* Bttton styles */
 button {
     background-color: #f9b17a;
     color: #fff;
@@ -70,6 +70,6 @@ button:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh; /* vh stands for viewport height */
-    object-fit: cover; /* This will make the image cover the entire area without distorting its aspect ratio */
-    z-index: -1; /* This will put the image behind other content */
+    height: 100vh; 
+    object-fit: cover; 
+    z-index: -1;
