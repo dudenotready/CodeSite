@@ -14,6 +14,18 @@ body {
 }
 
 /* Set font styles */
+button {
+    background-color: #f9b17a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: 2px solid #f9b17a; /* Updated hex value */
+}
+
+button:hover {
+    background-color: #555;
+}
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
