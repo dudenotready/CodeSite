@@ -17,7 +17,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## This is a Test Branch!
+## About Project
 
 The purpose for this project is to show my ability to make a website using only code
 
