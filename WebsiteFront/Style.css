@@ -1,29 +1,54 @@
 /* FILEPATH: /g:/Coding/CodeSite/CodeSite/WebsiteFront/Style.css */
 
 /* Reset default styles */
-body, h1, p {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Set font and background color */
+/* Set dark background color */
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Set font styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-}
-
-/* Style heading */
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-/* Style paragraphs */
-p {
     font-size: 16px;
+}
+
+/* Set link styles */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Set heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Set paragraph styles */
+p {
     line-height: 1.5;
-    color: #666;
-    margin-bottom: 20px;
+}
+
+/* Set button styles */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
 }
